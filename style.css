@@ -3,3 +3,101 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container{
+    width: 100%;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+.left-container{ 
+    float: left;
+    width: 40%;
+   
+    height:auto;
+    padding: 15px;
+    padding-left: 25px;
+    
+}
+.container1{
+    
+    display: flex;
+}
+
+.container1 img{
+    
+    width: 60px;
+    height: 60px;
+}
+.container1 .agro{
+    font-size: 50px;
+    color: rgb(139, 80, 41);
+    background-color: ;
+}
+.right-container{
+    float: right;
+    width: 60%;
+    background-image: url(../project2-simpleWebPage/images/wall1.jpg);
+    background-attachment: initial;
+    background-size: auto;
+    background-repeat: no-repeat;
+
+    height: 800px;
+}
+.nav-bar{
+    width: auto;
+    float: right;
+    height: fit-content;
+   margin-left: 55px;
+    margin-top: 30px;
+    
+}
+.nav-bar ul {
+    list-style: none;
+    text-align: right;
+}
+.nav-bar li{
+    display: inline;
+    text-align: right;
+}
+.nav-bar a{
+    color: rgb(128, 124, 124);
+    text-decoration: none;
+    font-size: 15px;
+    padding-right: 15px;
+    font-weight: 600;
+}
+.nav-bar ul .active a{
+    color: rgb(214, 157, 35);
+    font-weight: 600;
+}
+.right-container .contact{
+    float: right;
+    width: 150px;
+    padding: 5px;
+    color: azure;
+    background-color: rgb(13, 73, 23);
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 25px;
+    margin-right: 55px;
+}
+.container2{
+    margin-top: 30%;
+}
+.container2 .line1{
+    font-size: 45px;
+    line-height: 1.3em;
+}
+.container2 .line2{
+    font-size: 15px;
+}
+.container2 .learn-more{
+    margin-left: 25%;
+    margin-top: 20px;
+    width: 150px;
+   
+    background-color: rgb(13, 73, 23);
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px;
+    color: aliceblue;
+}
